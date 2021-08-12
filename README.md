@@ -20,7 +20,7 @@ While decrptying it just uncovers the layers in the opposite order using the key
 
 [Back To The Top](#Crypter)
 ## How To Use
-<img src="https://github.com/vinaykrishna64/Crypter/blob/main/source_code/pics_for_readme/GUI.PNG" width="400" height="200" />
+<img src="https://github.com/vinaykrishna64/Crypter/blob/main/source_code/pics_for_readme/GUI.PNG" width="450" height="400" />
 
 
 [Back To The Top](#Crypter)
