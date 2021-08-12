@@ -72,6 +72,7 @@ A practical implementation of the proposed alternate method would be to have two
 <img src="https://github.com/vinaykrishna64/Crypter/blob/main/source_code/pics_for_readme/Tree.jpg" width="800" height="600" />
 
 note: The morse tree used for Crypter is a randomnly extended version of a standard morse tree which includes lower case letters and all characters on a US english layout keyboard.
+
 note: some character used such as '\n','\t' are not in the tree due plot interpreter issues in MATLAB. Check the table below for a complete list.
 
 
