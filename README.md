@@ -1,6 +1,7 @@
 # Crypter
 A standalone file encrypter/decrypter 
-![Project Image](https://github.com/vinaykrishna64/Crypter/blob/main/source_code/logo.png?raw=true)
+
+<img src="https://github.com/vinaykrishna64/Crypter/blob/main/source_code/logo.png?raw=true" width="200" height="200" />
 
 ### Table of Contents
 
