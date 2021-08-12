@@ -16,7 +16,7 @@ Crypter generates a key which is used to encrpyt a text file and converts the en
 - encrypts the text file using the above key
 - converts the encrypted text into morse code(check [Notes](#notes) for the tree used)
 
-While decrptying it just uncovers the layers in the opposite order using the key. So, ideally the key is shared between individuals/parties offline(privately) and messages(text files) can be shared between them publicly. The key has 95!(facotrial) combinations which by bruteforce would require 10^147 combinations to crack.
+While decrptying it just uncovers the layers in the opposite order using the key. So, ideally the key is shared between individuals/parties offline(privately) and messages(text files) can be shared between them publicly. The key has 95!(factorial) combinations which by bruteforce would require 10^147 combinations to crack.
 
 [Back To The Top](#Crypter)
 ## How To Use
