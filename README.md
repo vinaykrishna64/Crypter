@@ -8,6 +8,7 @@ A standalone file encrypter/decrypter
 - [Description](#description)
 - [How To Use](#how-to-use)
 - [Notes](#notes)
+- [Morse Table](#morse-table)
 
 
 ## Description
@@ -47,13 +48,33 @@ For generating new keys
 
 ## Notes
 
-The morse tree used for Crypter is a randomnly extended version of a standard morse tree which includes lower case letters and all characters on a US english layout keyboard.
+The encryption used is more or less basic. The key generater shuffles the 95 character array and maps it to the original array after which it rewrites the text document using the key. It then uses the morse table below to write it in morse code. 
+
+Example:
+- let's say our system has only the 6 characters \[a 1 b 2 c 3 \]
+- the key generated would be 5 4 3 6 2 1
+- this basicaly means replace 'a' with the 5th element..which is 'c' and  'b' with the 4th element..which is '2'......and so on
+- if you encrypt bacc3112 using the above key it would be 2c11a223 
+- This considering our 95 character array would result in  95!(factorial) combinations which is around 10^147 combinations
+
+
+In it's current form the morse layer is redundant. For the reason that if some one has the table attached below, they can easily decipher the morse layer. 
+The current implementation of the tree has standard morse code for 26 uppercase alphabet and 10 numbers but the rest was randomnly assigend(on my whim) which does 
+provide some protection. In it's ideal implementation one can make their own morse code for each character or shuffle the tree provided to make a key similar to the one made for characters in this program.
+
+ALternatively, one can manually rearrange morse codes using the source code provided and distribute the program privately. This will make the morse layer undecrpytable as you would shuffle 95 characters in dot and dashes. The other layer is a basic one-one mapped key for encryption which is being currently used. The morse layer implemented this is way is truely random as one can assign a true random sequence of dots and dashes to each character.
+
+A practical implementation of the proposed alternate method would be to have two keys one for morse table and one for character encryption by shuffling.
+
+
+## Morse Table
 
 <img src="https://github.com/vinaykrishna64/Crypter/blob/main/source_code/pics_for_readme/Tree.jpg" width="800" height="600" />
 
+note: The morse tree used for Crypter is a randomnly extended version of a standard morse tree which includes lower case letters and all characters on a US english layout keyboard.
 note: some character used such as '\n','\t' are not in the tree due plot interpreter issues in MATLAB. Check the table below for a complete list.
 
-Morse table
+
 
 | Character | Code |
 | ------ | ---- |
