@@ -1,5 +1,6 @@
 # Crypter
 A standalone file encrypter/decrypter 
+
 <img src="https://github.com/vinaykrishna64/Crypter/blob/main/source_code/pics_for_readme/logo.png" width="400" height="200" />
 
 ### Table of Contents
@@ -19,14 +20,14 @@ While decrptying it just uncovers the layers in the opposite order using the key
 
 [Back To The Top](#Crypter)
 ## How To Use
-<img src="/>https://github.com/vinaykrishna64/Crypter/blob/main/source_code/pics_for_readme/GUI.PNG" width="400" height="200" 
+<img src="https://github.com/vinaykrishna64/Crypter/blob/main/source_code/pics_for_readme/GUI.PNG" width="400" height="200" />
 
 
 [Back To The Top](#Crypter)
 
 ## Notes
      
-<img src="https://github.com/vinaykrishna64/Crypter/blob/main/source_code/pics_for_readme/Tree.jpg" width="400" height="200" />
+<img src="https://github.com/vinaykrishna64/Crypter/blob/main/source_code/pics_for_readme/Tree.jpg" width="600" height="400" />
 
 
 
