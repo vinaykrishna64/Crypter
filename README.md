@@ -55,8 +55,8 @@ note: some character used such as '\n','\t' are not in the tree due plot interpr
 
 Morse table
 
-| Character | code |
-| --------- | ---- |
+| Character | Code |
+| ------ | ---- |
 
 
 
