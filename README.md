@@ -21,7 +21,7 @@ While decrptying it just uncovers the layers in the opposite order using the key
 [Back To The Top](#Crypter)
 ## How To Use
 
-To use Crypter just download the application folder from the repository and use the exe file.
+To use Crypter just download the application folder(the two images and exe together) from the repository and use the exe file.
 - all files must be in the same folder as the application
 - do refresh whenever you create a new file/key to make them available in the dropdown
 - both images are necessary to run the application and must be in the folder too
