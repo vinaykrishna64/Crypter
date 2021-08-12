@@ -16,12 +16,30 @@ Crypter generates a key which is used to encrpyt a text file and converts the en
 - encrypts the text file using the above key
 - converts the encrypted text into morse code(check [Notes](#notes) for the tree used)
 
-While decrptying it just uncovers the layers in the opposite order using the key. So, ideally the key is shared between individuals/parties offline(privately) and messages(text files) can be shared between them publicly. The key has 95!(facotrial) combinations which by brute qould require 10^147 combinations to crack.
+While decrptying it just uncovers the layers in the opposite order using the key. So, ideally the key is shared between individuals/parties offline(privately) and messages(text files) can be shared between them publicly. The key has 95!(facotrial) combinations which by bruteforce would require 10^147 combinations to crack.
 
 [Back To The Top](#Crypter)
 ## How To Use
+
+To use Crypter just download the application folder from the repository and use the exe file.
+- all files must be in the same folder as the application
+- do refresh whenever you create a new file/key to make them available in the dropdown
+- both images are necessary to run the application and must be in the folder too
+- while naming your file/key don't add any extensions(Example: enter the name as 'file' instead of 'file.txt')
+- the application by default generates a text file and key if it is run in an empty folder to avoid a crash.
+
+
 <img src="https://github.com/vinaykrishna64/Crypter/blob/main/source_code/pics_for_readme/GUI.PNG" width="450" height="400" />
 
+For encrypting/decrypting
+- select the file you wish to encrypt/decrypt from the select file dropdown
+- select the key you wish to use from the keys dropdown(must be the same as the key used for encryption for decrypt)
+- name the file to which the encrypted/decrypted message is to be saved.(optional, the program creates a file regardless. Check the statusbar to see the name after the action completes)
+- hit the encrypt/decrypt button
+
+For generating new keys
+- hit the generate key to make a new key
+- you may name your key using the adjacent text box(optional). The default is key####(where #### is a random 4 digit number).
 
 [Back To The Top](#Crypter)
 
