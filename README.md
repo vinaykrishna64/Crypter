@@ -34,8 +34,10 @@ To use Crypter just download the application folder from the repository and use 
 For encrypting/decrypting
 - select the file you wish to encrypt/decrypt from the select file dropdown
 - select the key you wish to use from the keys dropdown(must be the same as the key used for encryption for decrypt)
-- name the file to which the encrypted/decrypted message is to be saved.(optional, the program creates a file regardless. Check the statusbar to see the name after the action completes)
+- name the file to which the encrypted/decrypted message is to be saved.(optional, the program creates a file regardless. Check the status bar to see the name after the action completes)
 - hit the encrypt/decrypt button
+
+note: Unavailble characters in the program are replaced with '*'
 
 For generating new keys
 - hit the generate key to make a new key
@@ -44,8 +46,112 @@ For generating new keys
 [Back To The Top](#Crypter)
 
 ## Notes
-     
-<img src="https://github.com/vinaykrishna64/Crypter/blob/main/source_code/pics_for_readme/Tree.jpg" width="600" height="400" />
+
+The morse tree used for Crypter is a randomnly extended version of a standard morse tree which includes lower case letters and all characters on a US english layout keyboard.
+
+<img src="https://github.com/vinaykrishna64/Crypter/blob/main/source_code/pics_for_readme/Tree.jpg" width="800" height="600" />
+
+note: some character used such as '\n','\t' are not in the tree due plot interpreter issues in MATLAB. Check the table below for a complete list.
+
+Morse table
+
+character	code
+A	.-
+B	-...
+C	-.-.
+D	-..
+E	.
+F	..-.
+G	--.
+H	....
+I	..
+J	.---
+K	-.-
+L	.-..
+M	--
+N	-.
+O	---
+P	.--.
+Q	--.-
+R	.-.
+S	...
+T	-
+U	..-
+V	...-
+W	.--
+X	-..-
+Y	-.--
+Z	--..
+0	-----
+1	.----
+2	..---
+3	...--
+4	....-
+5	.....
+6	-....
+7	--...
+8	---..
+9	----.
+,	--..--
+.	.-.-.-
+?	..--..
+;	-.-.-.
+:	---...
+'	.----.
+-	-....-
+/	-..-.
+(	-.--..
+)	-.--.-
+_	..--.-
++	...-.
+&	..-..
+*	..-.-
+^	..--
+#	..--.
+=	.-...
+%	.-..-
+@	-.....
+!	.-..-.
+$	-.-..
+\	-.--.
+<	---.-.
+>	---.--
+{	----..
+}	----.-
+[	-----.
+]	------
+"	----
+a	---.-
+b	---..-
+c	.-..--
+d	.-.-
+e	.-.-.
+f	.-.--
+g	.-.-..
+h	.-.--.
+i	.-.---
+j	.---.
+k	.--..
+l	.--.-
+m	.-----
+n	-...-
+o	-..--
+p	-.-.-
+q	-.-.--
+r	--....
+s	--...-
+t	-.---
+u	-.---.
+v	-.----
+w	--.-.
+x	--.--
+y	--.--.
+z	--.---
+~	--.-..
+`	--.-.-
+\n	---.
+\t	--..-
+![image](https://user-images.githubusercontent.com/17516044/129235136-cdb95039-1caa-4479-8254-acea8445de80.png)
 
 
 
