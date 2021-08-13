@@ -42,7 +42,8 @@ To use Crypter just download the application folder(the two images and exe toget
 ```
 notes: 
 - Unavailble characters in the program are replaced with '*'
-- In the case of you not prviding a file name, the program will create a file named in the following to store the encrypted/decrypted message.
+- In the case of you not prviding a file name, 
+   the program will create a file named in the following to store the encrypted/decrypted message.
 	- if you selected 'file1.txt' to be encrypted.
 	- the encrypted message will be stored in 'file1encrypted.txt'
 	- in case of decryption it would be 'file1decrypted.txt'
