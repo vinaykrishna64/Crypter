@@ -98,7 +98,7 @@ A practical implementation of the proposed alternate method would be to have two
 
 ## Morse Table
 
-The current implementation of the tree has standard morse code for 26 uppercase alphabet and 10 numbers but the rest was randomnly assigned(on my whim). The random assignment does provide some protection given one does not get hands on this documentation. Check [Notes](notes) for discussion on this approach.
+The current implementation of the tree has standard morse code for 26 uppercase alphabet and 10 numbers but the rest was randomnly assigned(on my whim). The random assignment does provide some protection given one does not get hands on this documentation. Check [Notes](#notes) for discussion on this approach.
 
 <img src="https://github.com/vinaykrishna64/Crypter/blob/main/source_code/pics_for_readme/Tree.jpg" width="800" height="600" />
 
