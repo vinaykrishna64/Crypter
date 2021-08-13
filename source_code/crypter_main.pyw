@@ -20,7 +20,7 @@ def get_files():
 	    	txt_files.append(x)
 	if txt_files == [] :
 		with open('null.txt', 'w') as f:
-			f.write('This file is created to prevent a crash due to non availability of text files')
+			f.write('This file is created to prevent a program crash.')
 	
 
 
@@ -30,7 +30,7 @@ def get_files():
 
 	if key_files == [] :
 		key = crypt.generate_key() 
-		with open('KEY.p', 'wb') as fp:
+		with open('KEY0000.p', 'wb') as fp:
 			pickle.dump(key, fp)
 			get_files()
 
@@ -106,7 +106,7 @@ root.geometry("450x400")
 root.minsize(450, 400)
  
 # set maximum window size value
-root.maxsize(450, 400)
+root.maxsize(600, 800)
 
 root.config(bg = 'azure')
 
@@ -144,21 +144,21 @@ decrpty_button.grid(row = 6, column =2 ,columnspan = 2)
 
 f_entry = Entry(root, width=20, font=('Helvetica',12),bg = 'snow2')
 f_entry.grid(row = 7, column = 0,columnspan = 2)
-f_entry.insert(0, "Encrypt/Decrypt to ..")
+f_entry.insert(0, "Name your file")
 
 sel_f= Label(root, width=30, bg = 'LemonChiffon3', fg =  'dark blue',text = " <-- name a file for results (no extension)")
 sel_f.grid(row = 7, column = 2)
 
 key_entry = Entry(root, width=20, font=('Helvetica',12),bg = 'snow2')
 key_entry.grid(row = 8, column =0,columnspan = 2)
-key_entry.insert(0, "Name your key (no extension)")
+key_entry.insert(0, "Name your key ")
 
 
 def generate_key_button():
 	key_name = key_entry.get()
 
 	file = 'KEY' + str(random.randint(0, 10000))+'.p'
-	if key_name != "Name your key (no extension)":
+	if key_name != "Name your key ":
 		file = key_name + '.p'
 	
 	key = crypt.generate_key() 
@@ -166,9 +166,9 @@ def generate_key_button():
 		pickle.dump(key, fp)
 
 	key_entry.delete(0, END)
-	key_entry.insert(0, "Name your key (no extension)")
+	key_entry.insert(0, "Name your key ")
 
-	print_status('New key generated... name...' + file)
+	print_status('New key generated......' + file)
 
 
 generate_key_button = Button(root,width=20, text = 'Generate_key' ,command=generate_key_button,bg =  'snow2', fg = 'dark goldenrod' ,padx=10, pady=10, font=('Helvetica',12))
@@ -178,7 +178,7 @@ generate_key_button.grid(row = 8, column = 2)
 
 
 def refresh():
-	print_status('Refreshing...')
+	print_status('Refreshing.....')
 	#get all files
 	txt_files.clear() 
 	key_files.clear() 
@@ -215,5 +215,5 @@ logo_label.grid(row = 10, column = 0,columnspan = 4)
 def print_status(status_str):
 	status = Label(root, font=('Helvetica',10), bg = 'blanched almond', fg =  'dark green' ,text = status_str ,bd=1, relief=SUNKEN, anchor=E)
 	status.grid(row = 11, column = 0, sticky = W+E, columnspan = 3)
-print_status('hello!!')
+print_status('Hello! welcome to Crypter!')
 root.mainloop()

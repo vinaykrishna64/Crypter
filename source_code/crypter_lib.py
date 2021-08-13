@@ -330,16 +330,3 @@ def decrypt(message,crypt_key):
 
 
 
-# #for exporting morse dict
-
-# import pandas as pd
-
-
-
-# df = pd.DataFrame(data=morse_dict, index=[0])
-
-# df = (df.T)
-
-# print(df)
-
-# df.to_excel('dict1.xlsx')
